@@ -9,12 +9,24 @@ body {
 
 p {
     font-size: 13px;
+    word-spacing: 1px;
 }
 
-.header {
+.navbar {
     display: flex;
     position: relative;
-}   
+    font-size: 13px;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.navbar:hover {
+    text-decoration: underline;
+}
+
+.footer:hover {
+    text-decoration: underline;
+}
 
 .main {
     display: flex;
@@ -25,10 +37,11 @@ p {
     padding-top: 8em;
 }
 
-.footer {
+footer {
+    font-size: 13px;
     color: #70757a;
     display: flex;
-    position: absolute;
+    position: fixed;
     justify-content: space-between;
     bottom: 10px;
     margin-left: 0px;
@@ -37,17 +50,26 @@ p {
     padding: 15px;
 }
 
+.left-footer {
+    justify-content: flex-start;
+}
+
+.right-footer {
+    justify-content: flex-end;
+}
+
 .logo {
-    padding-bottom: 50px;
+    padding-bottom: 45px;
 }
 
 #search-bar {
-    padding-left: 125px;
-    padding-right: 125px;
+    padding-left: 175px;
+    padding-right: 175px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 20px;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 #sign-in {
