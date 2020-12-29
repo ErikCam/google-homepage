@@ -12,7 +12,7 @@ p {
     word-spacing: 1px;
 }
 
-.navbar a {
+nav a {
     color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
 }
@@ -21,22 +21,38 @@ footer a {
     color: #70757a;
     text-decoration: none;
 }
-.navbar {
+
+nav {
     display: inline-flex;
-    position: fixed;
+    flex-direction: row;
+    position: absolute;
     font-size: 13px;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 8px;
+    margin-left: 25px;
+    margin-right: 30px;
     right: 0px;
     left: 0px;
     justify-content: space-between;
+}
+
+.right-nav > * {
+    margin-left: 30px;
+}
+
+.left-footer > * {
+    margin-right: 23px;
+}
+
+.right-footer > * {
+    margin-left: 23px;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.main {
+main {
     display: flex;
     width: auto;
     margin: auto;
@@ -46,18 +62,20 @@ a:hover {
 }
 
 footer {
-    font-size: 13px;
+    font-size: 14px;
     color: #70757a;
     display: flex;
-    position: fixed;
+    position: absolute;
+    flex-direction: row;
     justify-content: space-between;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
     background-color: rgba(0, 0, 0, 0.06);
-    padding: 15px;
+    padding: 13px 29px 11px 29px;
+    border-style: solid;
+    border-width: 0.5pt;
+    border-color: rgb(236, 235, 235);
 }
 
 .logo {
@@ -70,6 +88,7 @@ footer {
     padding-bottom: 12px;
     border-radius: 20px;
     margin-bottom: 30px;
+    border: 0.5px solid rgb(206,206,206);
 }
 
 #sign-in {
@@ -80,36 +99,31 @@ footer {
     font-weight: 500;
     font-size:14px;
     border: none;
-    margin-right: 30px;
 }
 
 #search-button {
-    font-size: 15px;
+    font-size: 14px;
     background-color: rgba(0, 0, 0, 0.03);
     border-radius: 3px;
     border: none;
-    padding: 7px 15px 7px 15px;
+    padding: 8px 15px 8px 15px;
     margin-right: 4px;
     margin-bottom: 22px;
     background-color: rgb(245, 245, 245);
 }
 
 #lucky-button {
-    font-size: 15px;
+    font-size: 14px;
     background-color:rgba(0, 0, 0, 0.03);
     border-radius: 3px;
     border: none;
-    padding: 7px 15px 7px 15px;
+    padding: 8px 15px 8px 15px;
     margin-left: 4px;
     margin-bottom: 22px;
     background-color: rgb(245, 245, 245);
 }
 
 #about {
-    margin-left: 16px;
-    margin-right: 14px;
+    margin-right: 12px;
 }
 
-#store {
-
-}
