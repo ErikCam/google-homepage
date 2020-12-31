@@ -26,7 +26,6 @@ footer a {
 
 nav {
     display: inline-flex;
-    flex-direction: row;
     position: absolute;
     font-size: 13px;
     align-items: center;
@@ -88,27 +87,37 @@ footer {
 }
 
 .logo {
-    padding-bottom: 45px;
+    padding-bottom: 52px;
+}
+
+.mag {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-top: 13px;
+    margin-left: 15px;
+    opacity: 0.4;
 }
 
 #search-bar {
-    width: 475px;
+    width: 395px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
+    padding-left: 45px;
+    padding-right: 45px;
     border: 0.5px solid rgb(206,206,206);
 }
 
 #search-bar:hover {
-    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    box-shadow: rgba(32, 33, 36, 0.28);
     outline: none;
 }
 
 #sign-in {
     background-color: rgb(26, 128, 243);
     color: #FFF;
-    justify-content: center;
     padding: 8px 13px 7px 13px;
     font-weight: bold;
     font-size:13px;
@@ -121,7 +130,7 @@ footer {
 
 .buttons > * {
     font-size: 14px;
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: rgba(0, 0, 0, 0.00);
     border-radius: 3px;
     border: none;
     padding: 8px 15px 8px 15px;
@@ -136,8 +145,4 @@ footer {
 
 #images {
     margin-left: 10px;
-}
-
-#mag {
-    height: 1px;
 }
