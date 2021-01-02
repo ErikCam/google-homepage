@@ -66,7 +66,7 @@ main {
     margin: auto;
     flex-direction: column;
     align-items: center;
-    padding-top: 10em;
+    padding-top: 12em;
 }
 
 footer {
@@ -87,7 +87,7 @@ footer {
 }
 
 .logo {
-    padding-bottom: 52px;
+    padding-bottom: 25px;
 }
 
 .mag {
@@ -107,12 +107,12 @@ footer {
     margin-bottom: 35px;
     padding-left: 45px;
     padding-right: 45px;
-    border: 0.5px solid rgb(206,206,206);
+    border: 0.1px solid rgb(206,206,206);
 }
 
 #search-bar:hover {
-    box-shadow: rgba(32, 33, 36, 0.28);
-    outline: none;
+    box-shadow: 0 1px 1px rgba(32, 33, 36, 0.28);
+    border: 1px solid #c6c6c6;
 }
 
 #sign-in {
